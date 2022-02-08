@@ -1,0 +1,4 @@
+type Query {
+    vehicles(pageNumber: Int, pageSize: Int): VehicleResponse
+}
+

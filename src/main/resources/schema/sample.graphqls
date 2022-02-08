@@ -1,0 +1,8 @@
+type Vehicle {
+    id: ID!
+    name: String
+}
+
+type VehicleResponse {
+    items: [Vehicle]
+}
